@@ -1,1 +1,34 @@
+.section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
 
+.section .content {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Styles pour la navigation */
+#fp-nav ul li a span {
+  background: #333;
+}
+
+#fp-nav ul li .fp-tooltip {
+  color: #333;
+}
+
+/* Animation de transition */
+.fp-section {
+  transition: all 0.7s ease-in-out;
+}
+
+/* Pour désactiver le scroll par défaut */
+html, body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+} 
